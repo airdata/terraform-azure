@@ -1,0 +1,5 @@
+container_name = "uneo-tfstates"
+primary_access_key = "svad20K6E0AEBzEqy/kFW1h0XyBYHSoe0NJgeSn6QaHpO6vJnhrSkVHWxYYk4SxrE0KMRh9P1qIfajMNLwm3lQ=="
+resource_group_name = "Uneo-Terraform-States-RG"
+secondary_access_key = "Ywz2lplXL+kbjMPL2a6H2kXEjNA5WYB/ofZPSfzH68YmVrJnqNaWumEMlnW64NWJcxaIF/5kLCW7v5Vc9kVqYg=="
+storage_account_name = "uneotfacc"
