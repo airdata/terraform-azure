@@ -6,6 +6,12 @@
   -  [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
   -  [Azure CLI Configure](https://docs.microsoft.com/en-us/azure/developer/terraform/install-configure)
   -  [Download terraform](https://www.terraform.io/downloads.html) and [add to path](https://www.vasos-koupparis.com/terraform-getting-started-install/)
+## Modules in the project
+  - acr        = AzureContainerRegistry
+  - appservice = AzureAppService
+  - backend    = Keep resource state in AzureStorageContainer 
+  - db         = AzureDB service with Postgres10
+  - vm         = AzureVirualMachine with basic automation inside.
 ## Initializing Terraform
 
 1. #### Comment out the backend config part in main.tf
